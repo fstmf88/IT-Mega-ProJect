@@ -1,5 +1,4 @@
-# 🛡️ 기업형 고가용성 인프라 구축 및 통합 보안 관제(IDS/SIEM) 프로젝트
-
+# 🛡️ Suricata , ELK를 활용한 IDS 시스템 구축
 <p align="center">
   <img src="https://img.shields.io/badge/GNS3-2F6B8A?style=for-the-badge&logo=gns3&logoColor=white" alt="GNS3">
   <img src="https://img.shields.io/badge/Rocky%20Linux%209-CD2C2E?style=for-the-badge&logo=redhat&logoColor=white" alt="Rocky Linux">
@@ -27,10 +26,7 @@
 ---
 
 ## 📐 네트워크 아키텍처 (Network Topology)
-
-> **3-Tier 아키텍처 및 핵심 장비 이중화 구조**
-> *기에 GNS3 망구성도 이미지 주소를 입력하거나 레포지토리에 올린 이미지 경로를 적어주세요.*
-> 예시: `![Topology](./image_27ac17.jpg)`
+<img width="974" height="564" alt="image" src="https://github.com/user-attachments/assets/5febe080-8fdc-4710-856b-ed89bed674e4" />
 
 ### 1️⃣ OUTSIDE (외부 인터넷망)
 * **라우터 이중화 (R1, R2):** 외부 공인 IP 대역(`192.168.0.37`)으로부터 인바운드 트래픽 진입 시 부하 분산 및 백업 경로 제공.
