@@ -47,10 +47,9 @@
 ## 📊 SIEM 실시간 통합 보안 관제 (Kibana Dashboard)
 
 > **Suricata 탐지 기반의 실시간 위협 모니터링**
-> *여기에 키바나 대시보드 이미지 주소를 입력하거나 레포지토리에 올린 이미지 경로를 적어주세요.*
-> 예시: `![Kibana Dashboard](./image_273ec2.png)`
+> <img width="1172" height="573" alt="image" src="https://github.com/user-attachments/assets/9d4af02d-a458-48d6-b79d-1ea109b551f9" />
 
-Kali Linux의 침투 테스트 도구(`sqlmap`, `Hydra` 등)를 이용해 DMZ 내 웹 서버에 공격을 수행한 결과, Suricata가 이를 탐지하여 Kibana 대시보드 상에 실시간으로 매칭시킨 모니터링 화면입니다.
+Kali Linux로 Python코드의 공격 코드를 이용해 DMZ 내 웹 서버에 공격을 수행한 결과, Suricata가 이를 탐지하여 Kibana 대시보드 상에 실시간으로 매칭시킨 모니터링 화면입니다.
 
 ### 🔍 관제 위젯별 주요 모니터링 기능
 * **프로토콜 통계 (Protocols Count):** 전체 네트워크 패킷 중 TCP(`2,003건`), UDP(`1,352건`), ICMP(`13건`)의 트래픽 점유율을 명확히 분류.
